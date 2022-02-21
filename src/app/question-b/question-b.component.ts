@@ -10,7 +10,7 @@ import { DummyWebSocket as WebSocket } from '../dummy-web-socket';
 })
 export class QuestionBComponent implements OnInit {
   /**
-   * There is a WebSocket, which get's notifications which contain data. This data should be rendered.
+   * There is a WebSocket, which get's notifications that contain data. This data should be rendered.
    *
    * Questions:
    * Do you see a problem here with the rendering of the data?
